@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f9ff;
+            color: #243b53;
+        }
+
+        nav {
+            background: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #2878b8;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #243b53;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #2878b8;
+        }
+
+        .about {
+            max-width: 1000px;
+            margin: 70px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .about h1 {
+            text-align: center;
+            color: #2878b8;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .about-content img {
+            width: 250px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .about-text h2 {
+            color: #2878b8;
+            margin-bottom: 15px;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            color: #2878b8;
+        }
+
+        @media (max-width: 750px) {
+            nav {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .about {
+                margin: 30px 15px;
+                padding: 25px;
+            }
+
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about">
+
+        <h1>About Me</h1>
+
+        <div class="about-content">
+
+            <img src="images/profile.jpg" alt="My Photo">
+
+            <div class="about-text">
+
+                <h2>Hello! I'm SHAIK.ARSHIYA</h2>
+
+                <p>
+                    I am currently pursuing my B.Tech
+                    in Computer Science and Engineering.
+                </p>
+
+                <p>
+                    I am interested in Software Development,
+                    Web Development and exploring new technologies.
+                </p>
+
+                <p>
+                    I enjoy learning new skills, solving problems
+                    and building creative projects.
+                </p>
+
+                <p>
+                    My goal is to become a skilled Software Developer
+                    and build a successful career in the IT industry.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 SHAIK.ARSHIYA| All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
